@@ -1,0 +1,72 @@
+30/11/2017
+
+Analizamos los scripts varEntorno.pl, varEntorno.py, varEntorno.java
+y varEntorno.rb.
+
+Estos scripts están en el repositorio, búscalos. Han sido tratados en clase
+Estos scripts están explicado en el documento: http://instantoutliner.com/22
+ --lectura imprescindible--
+
+Lo siguiente ha sido realizado en clase.
+
+1. Los ejecutamos.
+   Hemos debido instalar el intérprete ruby (se necesita pra varEntorno.rb).
+
+**2. Vamos contestando (te sirve de la explicación/documento de referencia).
+
+   - En el script python, ha creado 'algo' el intérprete para que use
+     el programador directamente.
+     *si,se han creado librerias. - no - ¿que?.
+
+   - Lo mismo en el script Perl, ¿hay algo, que usa el programador, alguna
+     estructura de datos que ha sido creada por el intérprete, como en el
+     caso del script Python?
+     *si - no - ¿que?.
+
+   - En el programa java varEntorno.java, el objeto 'env' de cual clase es
+     una instancia, y cómo se ha obtenido.
+ 
+   - Qué proporciona el método each ejecutado sobre el objeto ENV, en el
+     script ruby varEntorno.rb. *proporciona saber con que lo esta programa es interpretando.
+
+   - Qué consigue la función 'keys' de perl en el script varEntorno.pl y con
+     cuál finalidad es utilizada en dicho script.
+
+3. Crea un proyecto en github con cada uno de los scripts, en Perl, en ruby
+   y en java. Un mismo proyecto, utilizarás carpetas separadas, pero el 
+   proyecto debe ser uno.
+
+   Tendrá que figurar un fichero README.md en donde se explica como ejecutar
+   cada uno de los scripts o programas, como así también el objetivo de cada
+   uno de ellos (que es el mismo objetivo para todos). El proyecto sirve para
+   mostrar los rasgos coincidentes de los distintos lenguajes tratados para
+   la realización de la misma tarea (detalle interesante de poner el README).
+   Desde luego, tendrás que especificar cómo ejecutar cada uno de los scripts.
+
+
+
+---Los siguientes apartados no tienen que ver con los puntos anteriores.---
+
+**4. Lenguajes interpretados de mayor uso en el desarrollo web.
+   -- una pequeña lista --
+	*python
+	*ruby
+	*perl
+	*javaScript
+	*java
+	*c++
+	*php
+
+**5. Donde encaja la generación de 'código ensamblador' en la secuencia de
+   acciones que lleva adelante un compilador de lenguaje C; es decir, indica
+   exáctamente el momento en el que se genera dicho código, y que pieza software
+   trabajará con el mismo.
+	*Esta constituye la fase final de un compilador. En ella se genera el código 
+	objeto que por lo general consiste en código en lenguaje máquina (código relocalizable) 
+	o código en lenguaje ensamblador.
+
+6. En algún momento, has debido de ejecutar el comando 'make'.
+   Si contesta que sí, indica con qué fin.
+   Intenta recordar las prácticas que hemos conseguido realizar en clase.
+
+---

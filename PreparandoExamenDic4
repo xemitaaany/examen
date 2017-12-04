@@ -1,0 +1,206 @@
+30/11/2017
+
+Luego de la última clase, y a modo de preparación del próximo examen, puedes resolver:
+
+**1.
+Comando subversion 'svn clone' es equivalente al comando 'git checkout'
+
+*Verdadero
+Falso
+Nada que ver
+
+2.
+El script python analizado en clase y que encuentras en ED/Scripts/Python/titlesFotos.py
+no tiene ninguna dependencia respecto a otros paquetes o librerías, pero sí es un
+programa que procesa datos obtenidos a través de la web
+
+Verdadero
+Falso
+Nada que ver
+
+**3.
+Normalmente un intérprete interactivo se usa para estudiar y/o probar alguna funcionalidad
+de forma rápida
+
+*Verdadero
+Falso
+Nada que ver
+
+**4.
+Parecería ser que el paso siguiente, es necesario cuando se está intentando crear una
+librería u objeto compartido:
+  gcc -shared -o libfoo.so foo.o
+Se aprecia que libfoo.so es el nombre de la librería.
+Mientras que foo.o es el programa ya enlazado, listo para ejecutar.
+
+*Verdadero
+Falso
+Nada que ver
+
+5.
+El comando 'ar' ha sido usado para crear una librería estática.
+
+Verdadero
+Falso
+Nada que ver
+
+**6.
+La máquina virtual Java (JVM), hace las veces de compilador e intérprete.
+
+*Verdadero
+Falso
+Nada que ver
+
+7.
+Cuando ejecutas un programa java desde un IDE como eclipse, al compilar y ejecutar
+se está usando el compilador e intérprete instalado en tu sistema.
+
+Verdadero
+Falso
+Nada que ver
+
+8.
+El intérprete Perl cuando es invocado desde la shell comienza a trabajar sobre un
+código fuente si existe como argumento en la línea de comando, en caso que se ha
+invocado sin argumentos o parámetros, se inicia en modo interactivo.
+
+Verdadero
+Falso
+Nada que ver
+
+9.
+Las siguientes dos instrucciones que observamos en el siguiente script retornan un
+un valor cuyo "tipo" es diferente.
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# ... algunas instrucciones aquí ....
+'miguel' in miarray
+# ... algunas instrucciones aquí ....
+print undict['dni']
+
+Verdadero
+Falso
+Nada que ver
+
+10.
+El intérprete interactivo de java lo pones en ejecución mediante el comando 'javac'
+
+Verdadero
+Falso
+Nada que ver
+
+**11.
+El intérprete PHP es una librería, en concreto un fichero con extensión '.so', es decir
+una librería que se cargará dinámicamente.
+
+Verdadero
+*Falso
+Nada que ver
+
+**12.
+No hay transmisión a través de la red al ejecutar 'git commit'.
+
+Verdadero
+*Falso
+Nada que ver
+
+**13.
+Un intérprete a diferencia de un compilador, comienza la ejecución de un programa fuente.
+Mientras que el compilador no inicia ninguna ejecución de código.
+
+Verdadero
+*Falso
+Nada que ver
+
+14.
+El siguiente ciclo de tabajo en un proyecto git a crear en github es el
+siguiente: 
+   - en mi cuenta de github, creo un nuevo proyecto.
+   - realizo un git clone localmente.
+   - trabajo localmente, hay nuevos ficheros y carpetas que se
+     incluyen automáticamente.
+   - Ejecuto commit.
+   - Comprueba mediante la web si el proyecto en github está
+     igual que mi repositorio local.
+
+Verdadero
+Falso
+Nada que ver
+
+
+---
+
+La forma de comenzar a compilar un programa escrito en lenguaje C es ejecutando
+el compilador 'gcc', pero en este caso la compilación acaba indicando
+  /tmp/ccjAJgrL.o: En la función `main':
+  prog1.c:(.text+0x3f): referencia a `encuentraCaracter' sin definir
+  collect2: error: ld returned 1 exit status
+¿qué ha debido pasar?¿qué hago?
+
+
+En el script ED/Sripts/Ruby/varEntorno.rb existe un bucle del tipo 'for' que ya conoces
+¿en base a qué está implementado esta estructurra repetitiva?
+
+
+**
+Es conveniente ejecutar 'svn status', en la carpeta raiz de tu repositorio local
+con la finalidad de... que me salgan todos los archivos que han sido creados o modificados
+recientementes y ver si han sido añadidos o no.
+
+
+Al ejecutar un script Python durante una clase debimos previamente instalar un paquete
+o librería que se necesitaba en el mismo para ejecutar, lo que es lo mismo, el script
+en cuestión tenía una dependencia, ¿que ocurría si no se instalaba dicha dependencia?
+¿De cuál script estamos hablando?
+estamos hablando de python , si python no esta instalado no podra ejecutar ese script.
+
+
+Qué proyecto instalamos en nuestro sistema, una vez conseguido su código fuente desde
+github. Lo hicimos como práctica de clase. Además el proyecto era un proyecto escrito
+en lenguaje C, y no usamos el compilador C para compilarlo.
+Una característica del proyecto en cuestión era que tenía mas de 10000 fork.
+
+
+Un compilador sirve para.... traducir programas que han sido escrito en un lenguaje de
+programación a un lenguaje común, usualmente lenguaje de máquina,la construcción de un 
+compilador involucra la división del proceso en una serie de fases que variará con su 
+complejidad. Generalmente estas fases se agrupan en dos tareas: el análisis del programa
+ fuente y la síntesis del programa objeto.
+
+**
+¿Para qué sirve el compilador java?
+La función de compilador java es convertir un programa escrito un en lenguaje Java 
+a un lenguaje que la computadora pueda entender.
+
+De que forma hemos instalado un paquete o librería Python, cuando lo hemos necesitado?
+
+
+Ejecuta uno de los scripts puestos en este repositorio para conseguir lo mismo que
+el comando 'env'. Pega aquí el resultado, e indica el comando que ejecutaste.
+$python script20nov.py
+
+**
+Crea un nuevo proyecto en tu cuanta de github, escribe el el fichero README de que
+se trata el proyecto, indica que posible extensiones podrás realizar del mismo en
+un futuro o próximamente; el proyecto lo eliges tú entre los que has realizado para
+el módulo de Programación, es decir será un proyecto Java.
+Escribe aquí la URL del proyecto. Destaca también en el ficheor README como debe 
+instalarse y ejecutarse, es muy importante, en definitiva piensa que quien lo va
+a usar no lo sabe y debes guiarlo en ello.
+
+---https://github.com/xemitaaany/examen.git
+
+Has leído/reflexionado/estudiado:
+
+  http://instantoutliner.com/22
+  
+  Más los contenidos en los ficheros de la carpeta Clases
+     clase1
+     clase2
+     clase3 (todavía no se ha visto en clase, estos documentos,
+             pero puedes ir viéndolos, de que tratan).
+
+  Teníamos también dos fuentes para seguir los pasos en la construcción de librerías
+  estáticas y dinámicas.
+
+---
